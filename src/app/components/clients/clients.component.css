@@ -1,0 +1,30 @@
+ /*--------------------------------------------------------------
+  # Clients
+  --------------------------------------------------------------*/
+  .clients .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .clients .carousel-inner {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #006A92;
+  }
+  
+  .clients .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #006A92;
+  }
+  
+  .clients .swiper-slide img {
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+  }
+  
+  .clients .swiper-slide img:hover {
+    opacity: 1;
+    filter: none;
+  } 

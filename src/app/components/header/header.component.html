@@ -1,0 +1,63 @@
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo me-auto"><a [routerLink]="['home']"><img src="../../../assets/img/logo-header.png" alt="PECCU" class="imgRaduis"></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" [routerLink]="['home']">Home</a></li>
+
+          <li class="dropdown"><a><span>Portrait</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a [routerLink]="['about']">About Us</a></li>
+              <li><a href="portrait.html#vision">Vision & Values</a></li>
+              <li><a href="portrait.html#network">Our Network</a></li>
+              <li><a href="assets/docs/billing.pdf" target="_blank">Billing List</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a><span>Accounts</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Current</a></li>
+              <li><a href="#">Savings</a></li>
+              <li><a href="#">Salary</a></li>
+              <li><a href="#">Corporate</a></li>
+              <li><a href="#">Public Sector</a></li>
+              <li><a href="#">Other Accounts</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a ><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Loans</a></li>
+              <li><a href="#">VISA Cards</a></li>
+              <li><a href="#">Western Union</a></li>
+              <li><a href="#">SWIFT Transfers</a></li>
+              <li><a href="#">Daily Savings</a></li>
+              <li><a href="#">Others</a></li>
+
+            </ul>
+          </li>
+
+          <!-- <li><a class="nav-link scrollto " href="#portfolio">News & Events</a></li> -->
+
+          <li class="dropdown"><a href="join-us.html"><span>Join Us</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://www.opsecsltd.com/account-request" target="_blank">Account Request</a></li>
+              <li><a href="#">Job Applications</a></li>
+              <li><a href="#">Internships</a></li>
+              <li><a href="#">Recruitment</a></li>
+            </ul>
+          </li>
+          
+          <li><a class="nav-link scrollto" [routerLink]="['contact']">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <a href="https://apps.opsecsltd.com/awb" target="_blank" class="get-started-btn scrollto">My Account</a>
+    </div>
+  </header><!-- End Header -->
+

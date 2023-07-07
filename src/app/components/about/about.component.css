@@ -1,0 +1,217 @@
+/*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+  .about .container {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .about .content {
+    padding: 30px 30px 30px 0;
+  }
+  
+  .about .content h3 {
+    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+  
+  .about .content p {
+    margin-bottom: 30px;
+  }
+  
+  .about .content .about-btn {
+    padding: 8px 30px 9px 30px;
+    color: #fff;
+    border-radius: 50px;
+    transition: 0.3s;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid #006A92;
+  }
+  
+  .about .content .about-btn i {
+    font-size: 16px;
+    padding-left: 5px;
+  }
+  
+  .about .content .about-btn:hover {
+    background: #e35052;
+    background: #006A92;
+  }
+  
+  .about .icon-boxes .icon-box {
+    margin-top: 30px;
+  }
+  
+  .about .icon-boxes .icon-box i {
+    font-size: 40px;
+    color: #006A92;
+    margin-bottom: 10px;
+  }
+  
+  .about .icon-boxes .icon-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 10px 0;
+  }
+  
+  .about .icon-boxes .icon-box p {
+    font-size: 15px;
+    color: #848484;
+  }
+  
+  @media (max-width: 1200px) {
+    .about .content {
+      padding-right: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .about {
+      text-align: center;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+# Breadcrumbs
+--------------------------------------------------------------*/
+.breadcrumbs {
+  padding: 15px 0;
+  background: #2b2b2b;
+  min-height: 40px;
+  /*margin-top: 82px;*/
+  margin-top: 100px;
+  color: #fff;
+}
+
+.breadcrumbs h2 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0 0 10px 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs ol a {
+  color: #aaaaaa;
+}
+
+.breadcrumbs ol a:hover {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.breadcrumbs ol li+li {
+  padding-left: 10px;
+}
+
+.breadcrumbs ol li+li::before {
+  display: inline-block;
+  padding-right: 10px;
+  color: #006A92;
+  content: "/";
+}
+
+/*--------------------------------------------------------------
+# Pricing
+--------------------------------------------------------------*/
+.pricing .box {
+  padding: 20px;
+  background: #2b2b2b;
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing .box h3 {
+  font-weight: 400;
+  padding: 15px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.pricing .box h4 {
+  font-size: 42px;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing .box h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing .box h4 span {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing .box ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.pricing .box ul li {
+  padding-bottom: 16px;
+}
+
+.pricing .box ul i {
+  color: #006A92;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.pricing .box ul .na {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: line-through;
+}
+
+.pricing .box .btn-wrap {
+  padding: 15px;
+  text-align: center;
+}
+
+.pricing .box .btn-buy {
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 4px;
+  color: #fff;
+  transition: none;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.pricing .box .btn-buy:hover {
+  border-color: #fff;
+}
+
+.pricing .featured {
+  background: #006A92;
+  color: #2b2b2b;
+}
+
+a{
+  color:#fff;
+}
